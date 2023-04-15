@@ -1,0 +1,19 @@
+#recipe-card {
+  border: 2px solid #ffcc00;
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 30rem;
+}
+section {
+  min-height: 100vh;
+  margin: 0;
+}
+footer {
+  background-color: #ffcc00;
+  min-height: 100px;
+}
+#developer {
+  color: #fff;
+  font-weight: 600;
+}

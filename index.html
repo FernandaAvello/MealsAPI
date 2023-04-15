@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+        <img src="assets/img/logo-small.png" alt="logo" width="200" height="40">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <div class="d-flex w-50">
+          <input class="form-control me-2" type="search" placeholder="Escribe aquí tu receta..." aria-label="Search" id="search-recipe">
+          <button class="btn btn-outline-dark" onclick="searchRecipe()">Buscar</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="d-flex flex-column align-items-center">
+    <h1 class="mt-5">¡Busca tu receta!</h1>
+    <div class="card" id="recipe-card">
+      <img src="" class="card-img-top" alt="..." id="meal-image">
+      <div class="card-body">
+        <h3 class="card-title text-start" id="meal-name"></h3>
+        <h4 class="card-subtitle text-start" id="meal-category"></h4>
+        <h5 class="card-subtitle text-start mt-2" id="meal-area"></h5>
+        <p class="card-text text-justify mt-2" id="meal-instructions"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="d-flex justify-content-center align-items-center">
+    <p id="developer">Creado por M.Fernanda Avello</p>
+  </footer>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>
